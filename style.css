@@ -1,0 +1,46 @@
+body {
+    font-family: tenon, sans-serif;
+    margin: 16px;
+    color: #333;
+  }
+
+.square-grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 32px;
+}
+
+.row-container {
+    display: flex;
+    align-items: center;
+}
+
+.grid-item {
+    margin: auto;
+    border: 2px solid white;
+    background-color: #CCCCFF;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+h1 {
+    margin: 8px;
+    padding: 0px;
+}
+
+h3 {
+    margin: 8px;
+    padding: 0px;
+}
+
+.form {
+    margin: 8px;
+}
